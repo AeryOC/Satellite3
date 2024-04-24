@@ -16,10 +16,12 @@ function setup(){
     colorMode(HSB);
     imageMode(CENTER);
 
+
     s = "bla bla bla"
 }
 
 function draw(){
+    background(255);
     image(img1,width,height);
     image(img4,0,0);
     text(s,0,40);
