@@ -21,7 +21,7 @@ function setup(){
 }
 
 function draw(){
-    background(255);
+    background(130);
     image(img1,width,height);
     image(img4,0,0);
     text(s,0,40);
