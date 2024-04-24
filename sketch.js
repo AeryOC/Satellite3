@@ -23,7 +23,7 @@ function setup(){
 function draw(){
     background(130);
     image(img1,width,height);
-    image(img4,0,0);
+    image(img4,width/2,height/2);
     text(s,0,40);
 
 }
