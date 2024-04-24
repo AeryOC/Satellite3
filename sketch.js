@@ -13,6 +13,6 @@ function setup(){
 }
 
 function draw(){
-    image(img1,0,0,1920,1080);
+    //image(img1,0,0,1920,1080);
     text(s,0,40);
 }
