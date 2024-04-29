@@ -26,7 +26,7 @@ function draw(){
     image(img3,400,400,700,700);//portal
     image(img4,990,500,960,540); //satellite
     //scale(1,1);
-    image(img2,900,700,500,500); //planet
+    image(img2,1700,700,500,500); //planet
     
 
 }
