@@ -22,8 +22,12 @@ function setup(){
 }
 
 function draw(){
-    image(img5,0,500,500,900);
+    imageMode(CENTER);
+    image(img2,1600,200);
+    image(img5,100,700);
+    imageMode(CORNER);
     image(img4,400,100,880,370);
+    
     text(s,0,40);
 
 }
