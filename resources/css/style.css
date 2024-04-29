@@ -9,8 +9,11 @@ html, body{
     margin: 0px;
     padding: 0px;
 }
-
+h3{
+position: relative; 
+    z-index: 1;
+}
 canvas {
-  position: absolute; z-index: 1;
+  position: absolute; z-index: 0;
   top: 40px; left: 40px;
 }
