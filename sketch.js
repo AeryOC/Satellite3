@@ -23,10 +23,10 @@ function setup(){
 
 function draw(){
     imageMode(CENTER);
-    image(img3,1600,200);
+    image(img3,1600,400,700,700);
     image(img5,300,700,500,500);
-    imageMode(CORNER);
-    image(img4,400,100,880,370);
+
+    image(img4,990,300,400,500);
     
     text(s,0,40);
 
