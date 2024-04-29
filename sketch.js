@@ -24,7 +24,7 @@ function setup(){
 function draw(){
     imageMode(CENTER);
     image(img3,1600,200);
-    image(img5,100,700,300,300);
+    image(img5,300,700,500,500);
     imageMode(CORNER);
     image(img4,400,100,880,370);
     
