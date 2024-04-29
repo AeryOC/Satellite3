@@ -4,7 +4,7 @@ let img3;
 let img4;
 
 function preload(){
-    img1 = loadImage('resources/media/amogus.png');
+    img1 = loadImage('resources/media/testimage.png');
     img2 = loadImage('resources/media/planet-unscreen.gif');
     img3 = loadImage('resources/media/portal-unscreen.gif');
     img4 = loadImage('resources/media/sattransparent.gif');
