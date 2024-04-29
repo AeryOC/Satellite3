@@ -17,17 +17,13 @@ function setup(){
     colorMode(HSB);
  
 
-
-    s = "bla bla bla"
 }
 
 function draw(){
     imageMode(CENTER);
-    image(img3,1600,400,700,700);
-    image(img5,300,700,500,500);
-
-    image(img4,990,300,400,500);
+    image(img3,1600,400,700,700); //portal
+    image(img5,300,700,500,500); //planet
+    image(img4,990,500,480,270); //satellite
     
-    text(s,0,40);
 
 }
