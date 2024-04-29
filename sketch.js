@@ -14,7 +14,7 @@ function preload(){
 function setup(){
     createCanvas (1920,1080);
     colorMode(HSB);
-    imageMode(CENTER);
+ 
 
 
     s = "bla bla bla"
@@ -22,9 +22,7 @@ function setup(){
 
 function draw(){
     background(130);
-    imageMode();
     image(img1,0,0,1920,1080);
-    imageMode(CENTER);
     image(img4,width/3,height/3);
     text(s,0,40);
 
