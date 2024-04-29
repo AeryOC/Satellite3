@@ -8,6 +8,7 @@ function preload(){
     img2 = loadImage('resources/media/planet-unscreen.gif');
     img3 = loadImage('resources/media/portal-unscreen.gif');
     img4 = loadImage('resources/media/sattransparent.gif');
+    img5 = loadImage('resources/media/planet1.gif');
 }
 
 
@@ -22,7 +23,7 @@ function setup(){
 
 function draw(){
     background(130);
-    image(img1,0,0,1920,1080);
+    image(img5,0,500,500,1080);
     image(img4,400,100,880,370);
     text(s,0,40);
 
