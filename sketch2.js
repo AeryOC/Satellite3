@@ -22,9 +22,11 @@ function setup(){
 
 function draw(){
     imageMode(CENTER);
-    image(img3,1600,400,700,700); //portal
-    image(img2,300,700,500,500); //planet
-    image(img4,990,500,480,270); //satellite
+    scale(-1,1);
+    image(img3,400,400,700,700);//portal
+    image(img4,990,500,960,540); //satellite
+    scale(1,1);
+    image(img5,900,700,500,500); //planet
     
 
 }
