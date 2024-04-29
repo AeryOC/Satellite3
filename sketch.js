@@ -24,7 +24,7 @@ function draw(){
     imageMode(CENTER);
     image(img3,1600,400,700,700); //portal
     image(img5,300,700,500,500); //planet
-    image(img4,990,500,480,270); //satellite
+    image(img4,990,500,960,540); //satellite
     
 
 }
