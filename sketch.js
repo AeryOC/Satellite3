@@ -7,7 +7,7 @@ function preload(){
     img1 = loadImage('resources/media/testimage.png');
     img2 = loadImage('resources/media/planet-unscreen.gif');
     img3 = loadImage('resources/media/portal-unscreen.gif');
-    img4 = loadImage('resources/media/sat1.gif');
+    img4 = loadImage('resources/media/sattransparent.gif');
 }
 
 
