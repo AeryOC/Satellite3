@@ -11,6 +11,6 @@ html, body{
 }
 
 canvas {
-  position: absolute;
+  position: absolute; z-index: 1;
   top: 40px; left: 40px;
 }
